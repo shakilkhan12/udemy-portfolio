@@ -23,7 +23,7 @@ const Reviews = () => {
       </p>
       <div className="relative w-full">
         {data.length !== count ? (
-          <div className="absolute bottom-0 w-full h-full bg-gradient-to-t from-white/80 dark:from-[#121212]/90 from-[50%] to-transparent flex justify-center items-end">
+          <div className="absolute bottom-0 w-full h-full bg-gradient-to-t from-white/80 dark:from-[#121212]/90 from-[50%] to-transparent flex justify-center items-end z-[9999]">
             <button
               className="h-[45px] bg-violet-600 text-white rounded-lg font-medium text-base capitalize px-4"
               onClick={() => setCount(count + 6)}
